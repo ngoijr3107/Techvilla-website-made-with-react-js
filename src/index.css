@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    color: #101820;
+    background: linear-gradient(#ebf0f5, #fff);
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #006B38;
+  }
+.navigation-bar{
+    margin: auto;
+    width: 100%;
+    padding: 25px 50px;
+    color: #101820;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+#menu-btn{
+    color: #006B38;
+}
+.quote{
+    float: right;
+    background-color: #006B38;
+    color: #fff;
+    padding: 10px;
+}
+#hero-section h1{
+    color:#101820;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    /* text-transform: uppercase; */
+    /* line-height: 4rem; */
+}
+#hero-section h1 span{
+    color:#006B38;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #006B38;
+}
+#hero-section p{
+    text-align: justify;
+    font-size: 14px;
+}
+#hero-section .about{
+    border-bottom: 1px solid #006B38;
+    color: #006B38;
+    padding-top: 10px;
+    margin: auto;
+}
+#service-section{
+    /* margin: 150px 100px; */
+    color: #101820;
+    font-weight: 400;
+}
+#service-section h3{
+    color: #006B38;
+    font-weight: bold;
+}
+#service-section img{
+    width: 150px;
+    height: 150px;
+}
+#about-section h1{
+    color: #006B38;
+}
+#about-section p{
+    color: #101820;
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#about-section .about{
+    color: #006B38;
+    padding: 10px 0px;
+    border-bottom: 1px solid #006B38;
+}
+.action-btn{
+    padding: 10px;
+    color: #006B38;
+    border: 1px solid #006B38;
+}
+.cta-section{
+    color: #101820;
+}
+.cta-sub{
+    border: 1px solid #006B38;
+}
+.cta-sub:focus{
+    border: 1px solid #006B38;
+}
+.footer{
+    background-color: #101820;
+}
+.footer span{
+    color:#006B38;
+}
+#divider-row{
+    width: 10%;
+    height: 5px;
+    background: #006B38;
+    transition: 0.5 ease-in-out;
+}
